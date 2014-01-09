@@ -48,3 +48,4 @@ end
 
 gem 'slim'
 gem 'slim-rails'
+gem 'octokit', '~> 2.0'
