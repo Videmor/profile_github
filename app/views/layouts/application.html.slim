@@ -6,5 +6,8 @@ html
     = javascript_include_tag "application", "data-turbolinks-track" => true
     = csrf_meta_tags
   body
+    = link_to 'Iniciar con twitter', '/auth/twitter'
+    = link_to 'Iniciar con facebook', '/auth/facebook'
+    = link_to 'Iniciar con Github', '/auth/github'
     = yield
 

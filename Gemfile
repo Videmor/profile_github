@@ -49,3 +49,12 @@ end
 gem 'slim'
 gem 'slim-rails'
 gem 'octokit', '~> 2.0'
+
+gem 'omniauth-github'
+gem 'devise'
+
+group :development do
+  gem 'pry-rails'
+  gem 'awesome_print'
+end
+
