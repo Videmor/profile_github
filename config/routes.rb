@@ -1,5 +1,7 @@
 Profile::Application.routes.draw do
-  get "home/index"
+  resources :report_cards
+
+  resources :users
 
   get "/auth/:provider/callback", to: 'sessions#new'
 

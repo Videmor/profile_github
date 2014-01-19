@@ -1,0 +1,2 @@
+class ReportCardsController < ApplicationController
+end
